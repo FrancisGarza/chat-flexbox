@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Bold;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ebebeb;
+    
+}
+
+.txtlogo{
+    position: absolute;
+    top: 60%;
+    left:49%;
+    width: 450px;
+    height: 100px;
+}
+.txtlogo-big{ 
+    position: relative;
+    left: -280px;
+    width: 1000px;
+    text-align: center;
+    font-size: 35px;
+}
+.txtlogo-small{
+    position: relative;
+    text-align: center;
+    left: -6px;
+    padding: 10px;
+    padding-top: 1px;
+    font-size: 14px;
+}
+.logoimg{
+    position: absolute;
+    height: 400px;
+    top: 20%;
+    left:50%;
+}
+.row {
+    border-right: solid;
+    background-color: #ffffff;
+    border-color:#d7d7d7;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+}
+.cnt {
+
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+}
+
+.cnt-cnt-izq {
+    border-width: thin;
+    border-bottom: solid;
+    border-color:#d7d7d7;
+    justify-content: space-around;
+    padding: 5px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    height: 50px;
+    border-radius: 50%;
+}
+.status{
+    font-size: 10px;
+
+    color: #bababa;
+}
+
+.txt {
+    padding: px;
+    width: 50%;
+    font-size: 16px
+}
+
+.subtxt {
+    font-size: 14px;
+}
+
+.ico-1 {
+    height: 20px;
+    padding-right: 3px;
+}
+
+.ico-2 {
+    height: 20px;
+}
+
+.box {
+    margin: 20px;
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #b382d6;
+}
+.cnt-cnt-cnt-izq{
+    border-width: thin;
+    border-bottom: solid;
+    border-color: #d7d7d7;
+    justify-content: space-around;
+    padding: 20px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.foto-2 {
+    padding: 5px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.txt-2 {
+    width: 70%;
+    font-size: 20px
+}
+
+.subtxt-2 {
+    font-size: 15px;
+
+}
